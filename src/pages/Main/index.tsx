@@ -1,7 +1,7 @@
 import React from 'react'
 import { SafeAreaView, View, Text } from 'react-native'
 
-export default function Main() {
+const Main: React.FC = () => {
     return (
         <SafeAreaView>
             <View>
@@ -10,3 +10,5 @@ export default function Main() {
         </SafeAreaView>
     )
 }
+
+export default Main
