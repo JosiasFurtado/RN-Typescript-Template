@@ -1,13 +1,13 @@
-import React from 'react'
-import { createAppContainer } from 'react-navigation'
-import { createStackNavigator } from 'react-navigation-stack'
+import React from "react";
+import { createAppContainer } from "react-navigation";
+import { createStackNavigator } from "react-navigation-stack";
 
-import Main from './pages/Main'
+import Main from "./pages/Main";
 
 const Routes = createAppContainer(
-    createStackNavigator({
-        Main,
-    })
-)
+  createStackNavigator({
+    Main
+  })
+);
 
-export default Routes
+export default Routes;
