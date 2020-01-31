@@ -1,7 +1,13 @@
 import React from "react";
 import { SafeAreaView, View, Text } from "react-native";
 
-const Main: React.FC = () => {
+interface Example {
+  name: string;
+}
+
+type Props = Example;
+
+const Main: React.FC<Props> = () => {
   return (
     <SafeAreaView>
       <View>
